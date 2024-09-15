@@ -21,12 +21,17 @@
       margin: 10px; 
       margin-right: 0px;
     }
+    .navbar1
+    {
+      box-shadow: 0px 8px 20px rgba(0,0,0, 0.20);
+      z-index: 200;
+    }
   </style>
 </head>
 
 <body>
-  <nav class="navbar-1 navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
+  <nav class="navbar1 navbar navbar-expand-lg bg-body-tertiary" >
+    <div class=" container-fluid">
       <a class="navbar-brand" href="./index.html"><i>iCoder</i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,11 +90,11 @@
       <div class="modal-body p-5 pt-0">
         <form class="">
           <div class="form-floating mb-3">
-            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" fdprocessedid="6upjwd">
+            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" fdprocessedid="6upjwd" required>
             <label for="floatingInput">Email address</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" fdprocessedid="2m9zi">
+            <input type="password" class="form-control rounded-3" id="floatingPassword1" placeholder="Password" fdprocessedid="2m9zi" required>
             <label for="floatingPassword">Password</label>
           </div>
           <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" fdprocessedid="jea1p">Login</button>
@@ -101,15 +106,15 @@
           </div>
           <hr class="my-4">
           <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
-          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="kb0bk">
-            <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
-            Login with Twitter
-          </button>
-          <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit" fdprocessedid="ljodgr">
+          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="ljodgr">
             <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg>
             Login with Facebook
           </button>
-          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="5k8g2g">
+          <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit" fdprocessedid="kb0bk">
+            <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+            Login with Google
+          </button>
+          <button class="w-100 py-2 mb-2 btn btn-outline-success rounded-3" type="submit" fdprocessedid="5k8g2g">
             <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg>
             Login  with GitHub
           </button>
@@ -131,23 +136,23 @@
       <div class="modal-body p-5 pt-0">
         <form class="">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="Sujith" fdprocessedid="6upjwd">
+            <input type="text" class="form-control rounded-3" id="floatingInput1" placeholder="Sujith" fdprocessedid="6upjwd" required>
             <label for="floatingInput">First Name</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="raj" fdprocessedid="6upjwd">
+            <input type="text" class="form-control rounded-3" id="floatingInput2" placeholder="raj" fdprocessedid="6upjwd" required>
             <label for="floatingInput">Last Name</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" fdprocessedid="6upjwd">
+            <input type="email" class="form-control rounded-3" id="floatingInput3" placeholder="name@example.com" fdprocessedid="6upjwd" required>
             <label for="floatingInput">Email address</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" fdprocessedid="2m9zi">
+            <input type="password" class="form-control rounded-3" id="floatingPassword2" placeholder="Password" fdprocessedid="2m9zi" required>
             <label for="floatingPassword">Password</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Confirm Password" fdprocessedid="2m9zi">
+            <input type="password" class="form-control rounded-3" id="floatingPassword3" placeholder="Confirm Password" fdprocessedid="2m9zi"required>
             <label for="floatingPassword">Confirm Password</label>
           </div>
           <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" fdprocessedid="jea1p">Sign Up</button>
@@ -156,13 +161,13 @@
           <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
           <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="kb0bk">
             <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
-            Sign Up with Twitter
+            Sign Up with Facebook
           </button>
           <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit" fdprocessedid="ljodgr">
             <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg>
-            Sign Up with Facebook
+            Sign Up with Google
           </button>
-          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="5k8g2g">
+          <button class="w-100 py-2 mb-2 btn btn-outline-success rounded-3" type="submit" fdprocessedid="5k8g2g">
             <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg>
             Sign Up with GitHub
           </button>
